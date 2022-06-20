@@ -1,1 +1,3 @@
-/resume.pdf
+*.pdf
+/.auctex-auto/
+resume.synctex.gz
