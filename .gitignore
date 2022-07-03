@@ -1,3 +1,9 @@
 *.pdf
 /.auctex-auto/
 resume.synctex.gz
+resume.aux
+resume.fls
+resume.xdv
+resume.fdb_latexmk
+resume.out
+resume.log
