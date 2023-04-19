@@ -1,11 +1,13 @@
-\documentclass{moderncv}
+\documentclass[a4paper]{moderncv}
 \moderncvstyle{banking}
 \moderncvcolor{black}
 \usepackage{xeCJK}
-\usepackage[scale=0.8]{geometry}
+\usepackage[scale=0.9]{geometry}
+\geometry{a4paper,top=2cm,bottom=1cm}
 \name{董}{晨阳}
 \phone[mobile]{188~1159~9628}
 \email{dongcy2018@econ.pku.edu.cn}
+
 \photo{./董晨阳/证件照(白底).jpg}
 \begin{document}
 % \linespread{0.5}
@@ -14,46 +16,51 @@
 }
 \section{教育背景}
 \subsection{北京大学}
-\cventry{2018 -- 2022 -- 2024}{风险管理与保险学}{经济学院}{硕士\&本科}{}{
-    \cvitem{本科阶段}{GPA 3.73/4，排名 5/27。获得北京大学三等奖学金一次，校级三好学生一次}
-    \cvitem{硕士阶段}{研一在读，GPA3.7/4，擅长程序设计}
+\cventry{2022 -- 2024}{风险管理与保险学}{经济学院}{硕士}{}{
+    \cvitem{GPA}{GPA 3.73/4，排名 20\%}
+    \cvitem{奖励荣誉}{获得北京大学三等奖学金一次，校级三好学生一次}
 }
+\subsection{北京大学}
+\cventry{2018 -- 2022}{风险管理与保险学}{经济学院}{本科}{}{}
 \section{实习经历}
-\subsection{广发基金}\cventry{2023/1 -- 至今}{研究发展部}{美股研究}{}{}{
+\subsection{广发基金}\cventry{2023/1 -- 2023/4}{研究发展部}{行业研究}{}{}{
     \begin{itemize}
-        \item \textbf{《ChatGPT背后：LLM的发展与应用》}：大模型更需要数据、算力、人才和工程能力，AIGC早已到来
+        \item \textbf{AI专题系列报告}：大模型最重要的是数据和算力、其次是人才和工程能力及模型，AIGC时代在ChatGPT前早已到来
               \begin{itemize}
-                  \item \textbf{MSFT vs GOOG}：AGI vs Pathways；ChatGPT源自技术积累组合，Google仍属领先但需时间训练
-                  \item \textbf{NVDA \& MU}：数据和算力是AI产业卖铲人，CUDA是NVDA竞争壁垒，内存是AI芯片瓶颈
+                  \item \textbf{模型层}：ChatGPT是大模型商业化而非AI模型的奇点时刻，Google的技术仍然领先只是数据与微调的时间不足
+                  \item \textbf{硬件层}：Nvidia依靠软硬一体的优化、十年投入的生态以及开发全流程的覆盖，塑造了其在GPGPU领域的护城河
+                  \item \textbf{软件层}：调用API、做提示工程较难成为竞争优势；AI框架逐渐大一统，AI开发工具软件将迎来黄金时代
+                  \item \textbf{国内机会}：大模型仍有代差；ASIC大有可为，在AI芯片创业公司方兴未艾背景下，看好国产IP与Chiplet厂商
               \end{itemize}
-        \item \textbf{《DevOps工具：现代软件开发的基础设施》}：DevOps是高质量软件开发的方式，上云是DevOps趋势
+        \item \textbf{《TEAM：从敏捷开发、DevOps到MLOps》}：尽管受宏观需求疲软影响，公司基本面依然坚实，免费用户转化可持续
               \begin{itemize}
-                  \item \textbf{TEAM}：高集成度与数据累积是其竞争优势；用户数自然增长、免费用户转化飞轮是其持续盈利的关键
-                  \item \textbf{GTLB}：作为企业级安全和DevOps解决方案与GitHub差异化竞争，但竞争中营销费用沉重侵蚀利润
+                  \item \textbf{不同于市场的观点}：转化飞轮受宏观及科技公司裁员影响，项目管理是软件开发刚需，付费用户将依旧可持续自然增长
+                  \item \textbf{竞争优势}：高集成度的Jira成为DevOps工作流核心，数据积累提升用户粘性、免费用户转化飞轮大幅降低营销费用
+                  \item \textbf{未来增长}：MLOps管理ML应用生命周期，本质还是基于DevOps，可能成为公司在AI时代的新增长曲线
               \end{itemize}
-        \item \textbf{其他研究工作}：PCAR；BILL，CFLT，FROG，PD等
+        \item 其他研究工作：重卡行业PCAR；SaaS行业BILL，CFLT，FROG，PD，AI，WIX，GDDY等
     \end{itemize}
 }
 
 \subsection{中金公司}
 \cventry{2022/7 -- 2022/11}{互联网组}{行业研究}{}{}{
     \begin{itemize}
-        \item \textbf{《腾讯控股：一个观察框架》}：腾讯有望走出一个收入缓慢增长、利润较快增长、EPS 更快增长的范式
+        \item \textbf{《腾讯控股：一个观察框架》}：腾讯有望走出一个收入缓慢增长、利润较快增长、EPS 更快增长的范式，更像一个价值股
               \begin{itemize}
-                  \item \textbf{理解框架}：腾讯用社交网络形成人与人的连接，商业模式成功取决于与社交网络的配合
-                  \item \textbf{底层基础}：短视频并未真正动摇腾讯社交网络，尽管有分流，腾讯以全新的形态拥抱了短视频的趋势
-                  \item \textbf{利润改善}：增量业务对利润的弹性更大，降本增效强化了增长模型，相比收入，利润改善趋势更为确定
-                  \item \textbf{潜在催化}：稳定现金流，以及规模可观的投资组合，回购或分红助力股东价值得以更好释放
+                  \item \textbf{理解框架}：腾讯利用社交网络形成人与人的连接，游戏、广告等商业模式成功取决于与社交网络流量的配合
+                  \item \textbf{底层基础}：短视频并未真正动摇腾讯社交网络，尽管有一定的分流，腾讯以全新的形态拥抱了短视频的趋势
+                  \item \textbf{利润改善}：相比收入，利润改善趋势更为确定，降本增效强化了增长模型，视频号增量业务对利润的弹性更大
+                  \item \textbf{潜在催化}：尽管大股东持续减持，稳定的现金流、规模可观的投资组合以及回购、分红助力股东价值更好释放
               \end{itemize}
         \item \textbf{《Web3.0社区底座，以太坊升级在即》}：公链承担基础设施职能，预计形成一超(以太坊)多强格局
-        \item \textbf{其他研究工作}：《腾讯控股3Q22业绩点评》；《中金看海外：BeReal\&Gas》；《线上内容平台回顾-2Q22》等
+        \item 其他研究工作：《腾讯控股3Q22业绩点评》；《中金看海外：BeReal\&Gas》；《线上内容平台回顾-2Q22》等
     \end{itemize}
 }
 \subsection{淡水泉投资}
-\cventry{2021/12 -- 2022/06}{投资部}{数据分析}{}{}{
+\cventry{2021/12 -- 2022/06}{数据组}{数据分析}{}{}{
     \begin{itemize}
-        \item 编写回测系统与ETF统计系统，研究A股风格切换；分解基金风格因子，估计基金因子暴露度
-        \item 利用另类数据拟合不同品牌不同车型的新能源车销量与上险量，对新势力预测效果较好
+        \item 新能源车销量预测：结合另类数据与高频数据，分析不同品牌、不同车型的新能源车的销量与上限量
+        \item A股风格切换：根据A股近10年成交数据，编写回测系统与ETF统计系统，研究价值-成长风格切换
     \end{itemize}
 }
 % \subsection{嘉实基金}
@@ -66,13 +73,13 @@
 \subsection{易方达基金}
 \cventry{2020/09 -- 2021/01}{混合资产部}{行业研究}{}{}{
     \begin{itemize}
-        \item 研究全球半导体周期趋势，定量分析我国半导体行业产出增加对GDP及工业增加值的影响
-        \item 追踪新冠疫苗进展，爬取疫情动态，分析预测美国新冠疫情爆发概率
+        \item 半导体周期：全球需求、供给和库存周期共振，且历史上半导体周期启动均有契机；我国电子行业对经济产出定量分析
+        \item 全球疫情追踪：追踪全球新冠疫苗进展，爬取疫情动态，分析预测美国新冠疫情爆发概率
     \end{itemize}
 }
 \section{课外活动与技能}
 \cvitem{2021“美国风险与保险协会(RIMS)”年度峰会案例大赛}{\small 作为唯一美国本土外队伍进入全球前八强}
-\cvitem{“一桌”支教计划}{\small 2020年疫情爆发初期作为第一批支教老师，辅导武汉医护高三子女课业}
+\cvitem{“一桌”支教计划}{\small 2020年疫情爆发初期作为第一批支教老师，线上辅导武汉医护高三子女课业}
 % \cvitem{怀源计划暑期实践}{\small 前往甘肃省木耳乡支教一个月}
 \cvitem{技能}{\small Python、Wind、Office、C/C++、R、SQL、Solidity、JavaScript、Bloomberg、Tableau等}
 \end{document}
